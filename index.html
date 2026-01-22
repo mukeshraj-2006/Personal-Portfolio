@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Mukesh Raj" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Mukesh Raj">Mukesh Raj K</h1>
+
+          <p class="title">Web developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=2006mukeshraj@gmail.com" class="contact-link"
+                target="_blank">2006mukeshraj@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+918754390577" class="contact-link">+91 8754390577</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2006-04-09">April 09, 2006</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Tirupur</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/mukesh-raj-k-123456789" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/mukeshraj" class="social-link" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link="about">About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link="resume">Resume</button>
+          </li>
+
+
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link="blog">Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link="contact">Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I’m a UI & Frontend Developer, with a strong focus on
+            building clean, responsive, and visually engaging web interfaces. I enjoy translating complex ideas into
+            intuitive, user-friendly designs backed by efficient frontend implementation.
+          </p>
+          <p>
+            My work emphasizes usability, performance, and modern UI practices, combining thoughtful design with
+            practical development to create reliable and engaging digital experiences.
+          </p>
+
+
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+
+
+              <div class="service-icon-box">
+                <ion-icon name="desktop-outline"></ion-icon>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+
+              <div class="service-icon-box">
+                <ion-icon name="code-slash-outline"></ion-icon>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+
+
+              <div class="service-icon-box">
+                <ion-icon name="brush-outline"></ion-icon>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Graphic Design</h4>
+
+                <p class="service-item-text">
+                  Professional creation of visually appealing, brand-consistent graphics for digital and web platforms.
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+
+
+              <div class="service-icon-box">
+                <ion-icon name="film-outline"></ion-icon>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Video Editing</h4>
+
+                <p class="service-item-text">
+                  I create high-quality videos with smooth transitions, precise color correction, and engaging visual
+                  flow.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Bannari Amman Institute of Technology</h4>
+
+              <span>2023 — 2027</span>
+
+              <p class="timeline-text">
+                Bachelor of Artificial Intelligence & Machine Learning
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Product Developed</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Hygiene-X</h4>
+
+              <span>UI Developer & CAD Design</span>
+
+              <p class="timeline-text">
+                Hygiene-X is an AI-based hand hygiene monitoring system that verifies proper handwashing using computer
+                vision.
+                It ensures all seven standard handwashing steps are completed in the correct sequence and duration.
+                The system analyzes real-time hand movements to detect missed or incorrect steps.
+                Instant visual feedback helps users correct their technique during the process.
+                Hygiene-X improves hygiene compliance in healthcare, labs, and public environments. </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Green Score API</h4>
+
+              <span>UI & Frontend Developer</span>
+
+              <p class="timeline-text">
+                The Green Score system evaluates user actions based on environmentally responsible behavior.
+                It calculates green points using predefined sustainability metrics and activity data.
+                Users earn rewards for achieving higher green scores and consistent eco-friendly actions.
+                Real-time tracking encourages better environmental decisions and accountability.
+                The system promotes sustainable habits through measurable impact and incentives. </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">MirrorFix</h4>
+
+              <span>UI & Frontend Developer</span>
+
+              <p class="timeline-text">
+                The Mirror Fix system detects and reduces unwanted reflections in images.
+                It enhances visual clarity by separating reflections from the actual scene.
+                Advanced image processing ensures minimal detail loss during correction.
+                The system improves image usability for analysis and presentation.
+                It delivers cleaner, more accurate visuals in real time. </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Rakshak</h4>
+
+              <span>UI & Frontend Developer</span>
+
+              <p class="timeline-text">
+                Rakshak is an AI-based integrated public safety and surveillance system.
+                It monitors crowds, traffic, and public spaces in real time.
+                The system uses computer vision to detect anomalies, risks, and emergencies.
+                It supports crowd control, traffic management, and incident prevention.
+                Rakshak enables quick response through intelligent alerts and insights.
+                Data is securely processed to ensure accuracy and reliability.
+                The platform assists authorities in making timely, informed decisions.
+                Rakshak enhances large-scale event and public safety management through automation. </p>
+
+            </li>
+
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">UI Designer</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Frontend</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">CAD / 3D Modeling</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Video Editing (DaVinci/Premiere)</h5>
+                <data value="75">75%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Photoshop</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Tools</h3>
+
+          <ul class="tools-list content-card">
+            <li class="tool-item">
+              <ion-icon name="logo-figma"></ion-icon>
+              <span>Figma</span>
+            </li>
+            <li class="tool-item">
+              <ion-icon name="logo-html5"></ion-icon>
+              <span>HTML</span>
+            </li>
+            <li class="tool-item">
+              <ion-icon name="logo-css3"></ion-icon>
+              <span>CSS</span>
+            </li>
+            <li class="tool-item">
+              <ion-icon name="logo-javascript"></ion-icon>
+              <span>JavaScript</span>
+            </li>
+            <li class="tool-item">
+              <ion-icon name="cube-outline"></ion-icon>
+              <span>Blender</span>
+            </li>
+            <li class="tool-item">
+              <ion-icon name="construct-outline"></ion-icon>
+              <span>SolidWorks</span>
+            </li>
+            <li class="tool-item">
+              <ion-icon name="image-outline"></ion-icon>
+              <span>Photoshop</span>
+            </li>
+            <li class="tool-item">
+              <ion-icon name="videocam-outline"></ion-icon>
+              <span>DaVinci</span>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/technoxian.png" alt="Technoxian 2024" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Competition</p>
+                    <span class="dot"></span>
+                    <time datetime="2024">2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Technoxian 2024 (Top 5)</h3>
+
+                  <p class="blog-text">
+                    Achieved Top 5 position in the prestigious Technoxian 2024 robotics competition.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/green_fintech.png" alt="Green Fintech Hackathon" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Hackathon</p>
+                    <span class="dot"></span>
+                    <time datetime="2024">2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Green Fintech Hackathon (Top 10)</h3>
+
+                  <p class="blog-text">
+                    Secured a Top 10 rank for innovative sustainable financial technology solutions.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/qualcomm.png" alt="Qualcomm VisionX Finalist" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Finalist</p>
+                    <span class="dot"></span>
+                    <time datetime="2024">2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Qualcomm VisionX Finalist</h3>
+
+                  <p class="blog-text">
+                    Recognized as a finalist for advanced computer vision applications.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/global_innovators.png" alt="Global Innovators Finalist" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Finalist</p>
+                    <span class="dot"></span>
+                    <time datetime="2024">2026</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Global Innovators Finalist</h3>
+
+                  <p class="blog-text">
+                    Honored as a finalist in the Global Innovators competition.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125218.43828770288!2d77.2610787295196!3d11.101799292886915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba907b0425712c5%3A0x6a053da5e656e18f!2sTiruppur%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="https://formsubmit.co/2006mukeshraj@gmail.com" method="POST" class="form" data-form>
+
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://mukeshraj.github.io/portfolio/">
+
+            <div class="input-wrapper">
+              <input type="text" name="name" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/scroll.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
