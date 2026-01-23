@@ -494,7 +494,7 @@ main {
 }
 
 .social-item .social-link {
-  color: var(--light-gray-70);
+  color: var(--white-1);
   font-size: 24px;
 }
 
@@ -633,6 +633,11 @@ main {
 .service-icon-box ion-icon {
   color: var(--white-1);
   font-size: 40px;
+  transition: var(--transition-1);
+}
+
+.service-item:hover .service-icon-box ion-icon {
+  color: var(--orange-yellow-crayola);
 }
 
 .service-icon-box img {
