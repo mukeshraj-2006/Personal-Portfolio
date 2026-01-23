@@ -30,7 +30,7 @@ To view this portfolio locally:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/YOUR_USERNAME/portfolio.git
+    git clone https://github.com/mukeshraj-2006/Personal-Portfolio.git
     ```
 2.  **Open the project:**
     Navigate to the project folder and open `index.html` in your preferred web browser.
