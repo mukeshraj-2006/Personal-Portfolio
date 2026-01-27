@@ -82,4 +82,42 @@ Lightweight and framework-free
 Ionicons
 
 High-quality vector icons for UI elements
-*Designed and developed by Mukesh Raj K.*
+
+🚀 Getting Started
+
+To view this portfolio locally:
+
+1️⃣ Clone the repository
+git clone https://github.com/mukeshraj-2006/Personal-Portfolio.git
+
+2️⃣ Open the project
+
+Navigate to the project folder and open index.html in your preferred web browser.
+
+📂 Project Structure
+portfolio/
+├── assets/
+│   ├── css/
+│   │   └── style.css        # Main stylesheet
+│   ├── images/              # Avatars, banners, icons
+│   └── js/
+│       ├── script.js        # Core navigation & logic
+│       └── scroll.js        # Scroll-triggered animations
+├── index.html               # Main HTML entry point
+└── README.md                # Project documentation
+
+📬 Contact
+
+Feel free to reach out for collaborations, opportunities, or just a friendly hello!
+
+📧 Email: 2006mukeshraj@gmail.com
+
+📞 Phone: +91 87543 90577
+
+📍 Location: Tiruppur, Tamil Nadu, India
+
+👨‍💻 Designed & Developed by
+
+Mukesh Raj K
+
+This portfolio represents my journey in frontend development, UI/UX design, and interactive web experiences.
