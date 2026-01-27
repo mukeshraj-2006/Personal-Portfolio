@@ -23,6 +23,9 @@ Welcome to my personal portfolio website! This project is a modern, responsive s
 *   **CSS3:** Custom properties (variables), Flexbox/Grid layouts, and CSS animations. No external frameworks (Bootstrap/Tailwind) were used, ensuring a lightweight footprint.
 *   **JavaScript (ES6+):** Vanilla JS for navigation logic, scroll observation, and interactive cursor effects.
 *   **Ionicons:** High-quality vector icons for the UI.
+  
+## 🛠️ BUILT WITH
+<p align="center"> <img src="https://img.shields.io/badge/HTML5-black?style=for-the-badge&logo=html5&logoColor=E34F26"/> <img src="https://img.shields.io/badge/CSS3-black?style=for-the-badge&logo=css3&logoColor=1572B6"/> <img src="https://img.shields.io/badge/JavaScript-black?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/> </p> <p align="center"> <img src="https://img.shields.io/badge/UI%2FUX-Design-black?style=for-the-badge"/> <img src="https://img.shields.io/badge/Responsive-Design-black?style=for-the-badge"/> <img src="https://img.shields.io/badge/SPA-Experience-black?style=for-the-badge"/> </p> <p align="center"> <img src="https://img.shields.io/badge/Scroll-Animations-black?style=for-the-badge"/> <img src="https://img.shields.io/badge/Custom-Cursor-black?style=for-the-badge"/> <img src="https://img.shields.io/badge/FormSubmit-Integration-black?style=for-the-badge"/> </p>
 
 ## 🚀 Getting Started
 
