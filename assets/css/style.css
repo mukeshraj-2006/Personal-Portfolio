@@ -955,9 +955,9 @@ main {
   min-width: 80px;
 }
 
-.tool-item ion-icon {
+.tool-item :is(ion-icon, svg) {
   font-size: 40px;
-  color: var(--orange-yellow-crayola);
+  color: var(--white-1);
   transition: var(--transition-1);
 }
 
@@ -967,9 +967,9 @@ main {
   font-weight: var(--fw-500);
 }
 
-.tool-item:hover ion-icon {
+.tool-item:hover :is(ion-icon, svg) {
   transform: translateY(-5px);
-  color: var(--white-1);
+  color: var(--orange-yellow-crayola);
 }
 
 .timeline-list span {
