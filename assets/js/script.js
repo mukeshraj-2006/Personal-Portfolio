@@ -114,4 +114,31 @@ if (form && formBtn) {
       }
     });
   });
+
+  const notification = document.querySelector("[data-form-notification]");
+
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    formBtn.setAttribute("disabled", "");
+    formBtn.querySelector("span").textContent = "Sending...";
+
+    // Send data to FormSubmit.co
+    fetch(form.action, {
+      method: "POST",
+      body: new FormData(form),
+    })
+      .then(response => {
+        console.log("Success:", response);
+      })
+      .catch(error => {
+        console.error("Error:", error);
+      });
+
+    // Show success message and hide form after a brief delay
+    setTimeout(() => {
+      form.style.display = "none";
+      notification.classList.add("active");
+      form.reset();
+    }, 1500);
+  });
 }
