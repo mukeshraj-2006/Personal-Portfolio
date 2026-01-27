@@ -1474,21 +1474,30 @@ textarea.form-input::-webkit-resizer {
  */
 
 .form-notification {
+  display: none;
   position: relative;
   background: var(--border-gradient-onyx);
   padding: 30px;
   border-radius: 20px;
-  display: flex;
   flex-direction: column;
   align-items: center;
   gap: 15px;
   text-align: center;
-  opacity: 0;
-  visibility: hidden;
-  transform: translateY(20px);
-  transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   box-shadow: 0 0 10px hsla(45, 100%, 72%, 0.3);
   border: 1px solid var(--orange-yellow-crayola);
+  animation: fadeIn 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .form-notification::before {
@@ -1501,9 +1510,7 @@ textarea.form-input::-webkit-resizer {
 }
 
 .form-notification.active {
-  opacity: 1;
-  visibility: visible;
-  transform: translateY(0);
+  display: flex;
   margin-top: 20px;
 }
 
@@ -1539,7 +1546,7 @@ textarea.form-input::-webkit-resizer {
 }
 
 .notification-text {
-  color: var(--light-gray);
+  color: var(--white-2);
   font-size: var(--fs-4);
 }
 
